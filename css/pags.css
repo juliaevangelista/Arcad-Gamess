@@ -1,0 +1,119 @@
+a{
+	text-decoration: none;
+}
+.todo-assassins-creed{
+	/*FUNDO PRETO OPACIDADE 80*/
+	background: url("../img/pags/assassins-creed.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.todo-the-crew{
+	background: url("../img/pags/the-crew.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.todo-dota{
+	background: url("../img/pags/dota.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.todo-csgo{
+	background: url("../img/pags/csgo.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.titulo-pags{
+	color: white;
+	font-size: 25px;
+	margin-top: 2%;
+	margin-left: 15%;
+}
+.conteudo-pags{
+	background: url("../img/pags/fundo-pags.png");
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 90%;
+}
+
+.img-pags img{
+	background: yellow;
+	width: 35%;
+	float: right;
+}
+.sinopse{
+	color: #C6D4DF;
+	margin-top: 1%;
+	margin-right: 10px;
+	width: 34%;
+	float: right;
+	font-size: 15px;
+	text-align: justify;
+}
+.data-pags{
+	margin-top: 10%;
+	color: #556772;
+	font-size: 12px;
+}
+.desenvolvedor-pags{
+	margin-top: 10%;
+	color: #556772;
+	font-size: 12px;
+}
+.genero-pags{
+	margin-top: 10%;
+	color: #556772;
+	font-size: 15px;
+}
+.genero-pags a{
+	transition: .5s;
+	color: #66B5EE;
+	background: #2E4772;
+	font-size: 11px;
+	border-radius: 3px;
+	padding: 5px;
+}
+.genero-pags a:hover{
+	transition: .5s;
+	cursor: pointer;
+	color: white;
+	background: #2D97E8;
+}
+.baixar a{
+	transition: .5s;
+	color: white;
+	background: #2D97E8;
+	font-size: 11px;
+	border-radius: 3px;
+	padding: 5px;
+}
+.baixar a:hover{
+	transition: .5s;
+	background: #51aff7;
+}
+.botao-trailer{
+	transition: .5s;
+	margin-top: 50px;
+	margin-left: 45%;
+	width: 110px;
+	transition: .5s;
+	color: white;
+	background: #2D97E8;
+	font-size: 17px;
+	border-radius: 3px;
+	padding: 5px;
+	float: left;
+	cursor: pointer;
+}
+.botao-trailer:hover{
+	transition: .5s;
+	background: #51aff7;
+}
+
+/* SLIDE */
+.slide-pags{
+	width: 64%;
+	height: 90%;
+	float: left;
+}

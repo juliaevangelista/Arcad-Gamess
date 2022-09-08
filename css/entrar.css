@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+	background: url("../img/fundo-login02.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.fundo-entrar{
+	background: url("../img/fundo-principal.png");
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 330px;
+	height: 350px;
+	padding: 2%;
+	border-radius: 5px;
+}
+td{
+	color: white;
+}
+.logo img{
+	width: 300px;
+	margin-top: -40px;
+	margin-left: 39%;
+}
+.caixa{
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.container_entrar{
+	width: 350px;
+	height: 615px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border-radius: 5px;
+	font-size: 18px;
+}
+.campos{
+	border-radius: 3px;
+	height: 35px;
+	border: none;
+	font-size: 15px;
+	padding: 10px;
+}
+.btn_entrar{
+	transition: .5s;
+	width: 320px;
+	border-radius: 7px;
+	background: #2D97E8;
+	margin-right: 20px;
+	padding: 10px;
+	font-size: 17px;
+	color: whitesmoke;
+	border: none;
+	cursor: pointer; 
+}
+.btn_entrar:hover{
+	transition: .5s;
+	background: #51aff7;
+}
+.voltar{
+	transition: .5s;
+	width: 60px;
+	border-radius: 2px;
+	background: #2D97E8;
+	margin-right: 20px;
+	padding: 10px;
+	font-size: 17px;
+	text-align: center;
+	color: whitesmoke;
+	border: none;
+	cursor: pointer;
+}
+.voltar:hover{
+	transition: .5s;
+	background: #51aff7;
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+hr{
+	margin-left: auto;
+	margin-right: auto;
+	width: 94.5%;
+}
+.todo{
+	background: url("../img/fundo.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+}
+input{
+	background: whitesmoke;
+	border: whitesmoke;
+	border-radius: 5px;
+	padding: 10px;
+	width: 400px;
+	height: 50px;
+}
+.fundo-catalogo{
+	background: url("../img/fundo-principal.png");
+	margin-top: 5%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	padding: 1%;
+}
+.titulo{
+	background: white;
+	color: black;
+	width: 120px;
+	height: 25px;
+	border-radius: 3px;
+	padding: 4px;
+	margin-top: 3%;
+	margin-bottom: 20px;
+	margin-left: 3%;
+}
+.titulo strong{
+	font-size: 15px;
+}
+.titulo img{
+	float: left;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+.catalogo{
+	width: 95%;
+	margin-top: 1%;
+	margin-bottom: 4%;
+}
+.capa{
+	background: ;
+	padding: 1px;
+}
+.capa ul{
+	background: black;
+	color: white;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.6;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #2D97E8;
+  color: white;
+  font-size: 14px;
+  padding: 10px 26px;
+}
+								/*Rodapé*/
+.rodape{
+	background: #010A19;
+	color: white;
+	width: 100%;
+	height: 15%;
+	text-align: center;
+}
+.rodape img {
+	transition: .5s;
+}
+.rodape img:hover{
+	transition: .5s;
+	opacity: 0.7;
+	cursor: pointer;
+}

@@ -1,0 +1,39 @@
+html,body {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.hero.is-success {
+  background: url("../img/fundo_netflix.jpg");
+  background-size: 100%;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+input {
+  font-weight: 300;
+}
+p {
+  font-weight: 700;
+}
+.cor{
+	background: #f26f2e;
+	color: white;
+	border: none;
+	transition: .5s;
+}
+.cor:hover{
+	transition: .5s;
+	background: #ff5400;
+	color: white;
+}
+#back{
+	padding: 8px;
+	width: 100px;
+	font-size: 16px;
+	font-family: montserrat;
+	background: #FF8040;
+	text-align: center;
+	border-radius: 3px;
+}

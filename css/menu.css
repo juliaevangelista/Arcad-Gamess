@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/* main Styles */
+
+html { box-sizing: border-box; }
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+a { text-decoration: none; }
+
+.container {
+  width: 100%;
+  margin: auto;
+  box-shadow: 3px 3px 10px black;
+}
+/* Navigation Styles */
+
+nav { background: #010A19; }
+
+nav ul {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  color: #fff;
+  display: block;
+  font-size: 15px;
+  padding: 15px 14px;
+  transition: 0.3s linear;
+}
+
+nav ul li:hover { background: #126d9b; }
+
+nav ul li ul {
+  border-bottom: 5px solid #2ba0db;
+  display: none;
+  position: absolute;
+  width: 250px;
+}
+
+nav ul li ul li {
+  border-top: 1px solid #444;
+  display: block;
+}
+
+nav ul li ul li:first-child { border-top: none; }
+
+nav ul li ul li a {
+  background: #373737;
+  display: block;
+  padding: 10px 14px;
+}
+
+nav ul li ul li a:hover { background: #126d9b; }
+
+nav .fa.fa-angle-down { margin-left: 6px; }
+.sair {
+  float: right;
+  transition: .5s;
+  background: #126d9b;
+}
+.sair:hover {
+  transition: .5s;
+  background: #51aff7;
+}
+.user{
+  float: right;
+}
